@@ -1,0 +1,13 @@
+.alert{
+  color: red;
+  font-weight: bold;
+}
+
+.navButton {
+  display: block;
+  width: 100px;
+}
+
+.navButton:first-child {
+  margin-top: 25px;
+}

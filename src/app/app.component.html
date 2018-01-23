@@ -1,0 +1,13 @@
+<p *ngIf="currentBalance$ | async">BALANCE:  ${{currentBalance$ | async}}</p>
+<p *ngIf="alertMessage$ | async" class="alert">{{alertMessage$ | async}}</p>
+<pin-screen *ngIf="isActiveScreenPin$ | async"></pin-screen>
+<home-screen *ngIf="isActiveScreenHome$ | async"></home-screen>
+<withdraw-screen *ngIf="isActiveScreenWithdraw$ | async"></withdraw-screen>
+<deposit-screen *ngIf="isActiveScreenDeposit$ | async"></deposit-screen>
+
+<button *ngIf="(isActiveScreenPin$ | async) === false" (click)="exit()">Exit</button>
+<p *ngIf="(user$|async)">
+  <i>User: {{(user$|async).username}}</i>
+</p>
+
+
