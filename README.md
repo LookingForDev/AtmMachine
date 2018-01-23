@@ -1,27 +1,25 @@
 # AtmMachine
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+## Prerequisites
+You'll need Node.JS and NPM installed before you do anything. The latest releases of those two is recommended.
 
-## Development server
+## Steps to Compile and Run
+1. Open a console/terminal and navigate to the folder you want to contain the repositry.
+2. Clone the repositry by running the following command
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+        git clone https://github.com/LookingForDev/AtmMachine.git
 
-## Code scaffolding
+3. In the console navigate to the AtmMachine folder containing the source code.
+4. Run the following command in the console
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+        npm install
+        
+5. Next run the following command in the console
 
-## Build
+        npm start
+        
+6.  Open the following in Chrome or preferred web browser
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+        http://127.0.0.1:4200
+        
+7.  Once the page is up, enter one of the following Pins: 1111, 2222, 3333, 4444
